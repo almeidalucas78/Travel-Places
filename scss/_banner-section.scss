@@ -1,0 +1,99 @@
+.banner-area {
+  .navbar {
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    padding: 15px 0;
+    #navbarNav {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .nav-item {
+      a {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-right: 35px;
+        &:hover {
+          color: #732bde;
+        }
+      }
+    }
+    .dropdown-menu {
+      background-color: #222222;
+    }
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+      color: #732bde;
+    }
+  }
+  .your-class {
+    div {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 100%;
+      z-index: 800;
+    }
+    span {
+      font-size: 18px;
+      color: #fff;
+      font-weight: bold;
+      padding-bottom: 15px;
+    }
+    h2 {
+      font-size: 72px;
+      color: #fff;
+      font-weight: bold;
+      padding-bottom: 15px;
+    }
+    p {
+      color: #fff;
+    }
+    .btn-banner {
+      background-color: #fff;
+      border-radius: 20px;
+      margin-top: 30px;
+      padding: 8px 40px;
+      font-weight: 600;
+      box-shadow: 0px 20px 20px 0px rgb(0 0 0 / 10%);
+      border: 1px solid transparent;
+      color: #181818;
+      transition: all 0.2s;
+      &:hover {
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #fff;
+      }
+    }
+  }
+  .banner-home01 {
+    background-image: url(../img/banner/banner01.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner-home02 {
+    background-image: url(../img/banner/banner02.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner-home03 {
+    background-image: url(../img/banner/banner03.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner-overlay {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+  }
+}

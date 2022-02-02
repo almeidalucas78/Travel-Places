@@ -1,0 +1,22 @@
+.banner-area {
+  .navbar {
+    background-color: rgba(255, 0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    padding: 15px 0;
+    #navbarNav {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .nav-item {
+      a {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-right: 35px;
+      }
+    }
+  }
+}

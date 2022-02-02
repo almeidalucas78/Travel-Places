@@ -1,0 +1,30 @@
+.about-area {
+  padding: 90px 30px;
+  .about-img {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+    img {
+      margin-right: -24px;
+      margin-top: 80px;
+      margin-left: 60px;
+    }
+  }
+  .about-text-area {
+    padding: 80px 100px 90px 40px;
+    box-shadow: 0 0 50px 0 rgb(157 157 157 / 30%);
+    margin-right: 60px;
+    z-index: 1;
+
+    h3 {
+      font-size: 30px;
+      padding-bottom: 30px;
+    }
+    p {
+      color: #777777;
+      font-size: 14px;
+      font-weight: 300;
+      margin-bottom: 35px;
+    }
+  }
+}

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap");
+.banner-area .navbar {
+  background-color: rgba(255, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 15px 0;
+}
+.banner-area .navbar #navbarNav {
+  display: flex;
+  justify-content: flex-end;
+}
+.banner-area .navbar .nav-item a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-right: 35px;
+}
+.banner-area .navbar .nav-item a:hover {
+  color: #732bde;
+}
+.banner-area .navbar .dropdown-menu {
+  background-color: #222222;
+}
+.banner-area .navbar .dropdown-item:focus,
+.banner-area .navbar .dropdown-item:hover {
+  color: #732bde;
+}
+.banner-area .your-class div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 800;
+}
+.banner-area .your-class span {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.banner-area .your-class h2 {
+  font-size: 72px;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.banner-area .your-class p {
+  color: #fff;
+}
+.banner-area .your-class .btn-banner {
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 8px 40px;
+  font-weight: 600;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+  color: #181818;
+  transition: all 0.2s;
+}
+.banner-area .your-class .btn-banner:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.banner-area .banner-home01 {
+  background-image: url(../img/banner/banner01.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-area .banner-home02 {
+  background-image: url(../img/banner/banner02.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-area .banner-home03 {
+  background-image: url(../img/banner/banner03.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-area .banner-overlay {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/*fonts*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-area {
+  padding: 90px 30px;
+}
+.about-area .about-img {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+}
+.about-area .about-img img {
+  margin-right: -24px;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+.about-area .about-text-area {
+  padding: 80px 100px 90px 40px;
+  box-shadow: 0 0 50px 0 rgba(157, 157, 157, 0.3);
+  margin-right: 60px;
+  z-index: 1;
+}
+.about-area .about-text-area h3 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.about-area .about-text-area p {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */
